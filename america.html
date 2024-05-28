@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The T-Wiki</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+<div class="container-fluid" id="main">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="img-fluid" width="64" src="img/tank.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"><img src="img/home.png" class="img-fluid" width="30"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trending.html"><img src="img/trend.png" class="img-fluid" width="30"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nazione
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="america.html"><img src="img/nazioni/USA.png" class="img-fluid" width="30"> USA</a></li>
+              <li><a class="dropdown-item" href="russia.html"><img src="img/nazioni/RUSSIA.png" class="img-fluid" width="30"> RUSSIA</a></li>
+              <li><a class="dropdown-item" href="italia.html"><img src="img/nazioni/ITALY.png" class="img-fluid" width="30"> ITALIA</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html"><img src="img/news.png" class="img-fluid" width="30"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming soon...</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="img/nazioni/USA.png" class="img-fluid" width="40"></a>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cards trending -->
+  <div class="container mt-4">
+    <h1 class="h1">USA</h1>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="img/carousel/M1A2_SEP_V2.jpg" class="card-img-top" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">M1A2 SEP V2</h5>
+            <p class="card-text">MBT americano ancora in utilizzo dall'esercito americano</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abrams">
+              Dettagli
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal  abrams  -->
+      <div class="modal" id="abrams">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal abrams  header -->
+            <div class="modal-header">
+              <h4 class="modal-title">M1A2 SEP V2</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal abrams body -->
+            <div class="modal-body">
+              <p>L'M1A2 SEP (System Enhancement Program) è una versione aggiornata del carro armato principale M1A2 standard. L'aggiornamento SEP include processori migliorati, display a colori e a schermo piatto ad alta risoluzione, maggiore capacità di memoria, Soldier Machine Interface (SMI) di facile utilizzo e un sistema operativo aperto che consentirà la crescita futura. I principali miglioramenti includono l'integrazione del mirino a infrarossi di seconda generazione (FLIR di seconda generazione), dell'Under Armour Auxiliary Power Unit (UAAPU) e di un sistema di gestione termica (TMS). Le modifiche al carro armato M1A2 Abrams contenute nella configurazione SEP hanno lo scopo di migliorare la letalità, la sopravvivenza, la mobilità, la sostenibilità e fornire una maggiore consapevolezza situazionale e miglioramenti di comando e controllo. Un contratto pluriennale per 307 carri armati M1A2 Abrams Systems Enhancement Program (SEP) è stato assegnato nel marzo 2001 con produzione fino al 2004. Nel novembre 2007, General Dynamics si è aggiudicata un contratto per l'aggiornamento di 240 carri armati M1A2 SEP versione uno alla versione due configurazione che ha mirini, display e un telefono di fanteria migliorati. Attualmente, l'esercito americano dispone di un totale di 588 M1A2 SEP.
+  </p>
+              <br>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Armamento</th>
+                    <th scope="col">Corazza</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Un cannone liscio M256 da 120 mm, una mitragliatrice coassiale M240 da 7,62 mm, una mitragliatrice pesante M2 da 12,7 mm e una mitragliatrice M240 da 7,62 mm</td>
+                    <td>Corazza in acciaio incapsulato di terza generazione con uranio impoverito.</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th scope="col">Paesi utilizzatori</th>
+                    <th scope="col">Peso</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Stati Uniti</td>
+                    <td>63.000 kg</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th scope="col">Paese progettista</th>
+                    <th scope="col">Velocità</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Stati Uniti</td>
+                    <td>68 km/h</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th scope="col">Accessori</th>
+                    <th scope="col">Autonomia</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Vista termica indipendente del comandante, vista infrarossa di seconda generazione, unità di alimentazione ausiliaria sotto corazzatura (UAAPU), sistema di gestione termica</td>
+                    <td>425 km</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th scope="col">Equipaggio</th>
+                    <th scope="col">Dimensioni</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>4</td>
+                    <td>Lunghezza: 9,77 m; Larghezza: 3,7 m; Altezza: 2,4 m</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+            <!-- Modal abrams footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  
+  </div>
+  </body>
+  </html>

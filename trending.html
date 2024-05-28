@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The T-Wiki</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="container-fluid" id="main">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="img-fluid" width="64" src="img/tank.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><img src="img/home.png" class="img-fluid" width="30"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trending.html"><img src="img/trend.png" class="img-fluid" width="30"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nazione
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="america.html"><img src="img/nazioni/USA.png" class="img-fluid" width="30"> USA</a></li>
+                <li><a class="dropdown-item" href="russia.html"><img src="img/nazioni/RUSSIA.png" class="img-fluid" width="30"> RUSSIA</a></li>
+                <li><a class="dropdown-item" href="italia.html"><img src="img/nazioni/ITALY.png" class="img-fluid" width="30"> ITALIA</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html"><img src="img/news.png" class="img-fluid" width="30"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming soon...</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="img/trend.png" class="img-fluid" width="40"></a>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Cards trending -->
+    <div class="container mt-4">
+      <h1 class="h1">TRENDING</h1>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/carousel/T-80BVM.jpg" class="card-img-top" alt="Card Image">
+            <div class="card-body">
+              <h5 class="card-title">T-80 BVM</h5>
+              <p class="card-text">MBT russo ancora in utilizzo dall'esercito russo</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#t80">
+                Dettagli
+              </button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/carousel/Ariete_AMV.jpg" class="card-img-top" alt="Card Image">
+            <div class="card-body">
+              <h5 class="card-title">C1 ARIETE</h5>
+              <p class="card-text">MBT Italiano ancora in utilizzo dall'esercito italiano</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ariete">
+                Dettagli
+              </button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/carousel/M1A2_SEP_V2.jpg" class="card-img-top" alt="Card Image">
+            <div class="card-body">
+              <h5 class="card-title">M1A2 SEP V2</h5>
+              <p class="card-text">MBT americano ancora in utilizzo dall'esercito americano</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abrams">
+                Dettagli
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fine Cards trending -->
+    <!-- Modal  t80  -->
+    <div class="modal" id="t80">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal t80  header -->
+          <div class="modal-header">
+            <h4 class="modal-title">T-80 BVM</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal t80 body -->
+          <div class="modal-body">
+            <p>Il T-80BVM è una versione modernizzata del carro armato principale T-80BV sviluppato dalla Russia. Il carro armato è progettato per essere un carro armato altamente mobile e versatile, in grado di operare in vari scenari di combattimento, dalla guerra urbana a quella rurale. Questo carro armato è dotato di avanzati sistemi di armamento, protezione e mobilità, che lo rendono una forza formidabile sul campo di battaglia. È un carro armato principale di terza generazione, caratterizzato da una torretta a basso profilo e uno scafo corazzato ben inclinato, che offre una protezione migliorata contro vari tipi di proiettili. Lo stesso T-80BV è stato sviluppato negli anni '80, mentre il programma di aggiornamento del T-80BVM è iniziato all'inizio degli anni 2010. Il T-80BVM è stato presentato pubblicamente per la prima volta nel 2017 durante l'esercitazione militare Zapad. Successivamente è stato riportato che il carro armato è entrato in servizio con le forze di terra russe nel 2018.</p>
+            <br>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Armamento</th>
+                  <th scope="col">Corazza</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Un cannone da 125 mm, una mitragliatrice coassiale da 7,62 mm e una mitragliatrice pesante da 12,7 mm</td>
+                  <td>Combinazione di corazza composita, corazza reattiva esplosiva (ERA) e corazza modulare.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th scope="col">Paesi utilizzatori</th>
+                  <th scope="col">Peso</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Russia</td>
+                  <td>46.000 kg</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th scope="col">Paese progettista</th>
+                  <th scope="col">Velocità</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Russia</td>
+                  <td>75 km/h su strada, 45 km/h fuoristrada</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th scope="col">Equipaggiamento da combattimento</th>
+                  <th scope="col">Autonomia</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sistema di controllo del fuoco, mirino termico del puntatore, mirino panoramico del comandante, sistema di protezione NBC, sistema di comunicazione radio</td>
+                  <td>500 km con carburante interno</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th scope="col">Equipaggio</th>
+                  <th scope="col">Dimensioni (canone in avanti)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>3</td>
+                  <td>Lunghezza: 9,65 m; Larghezza: 3,6 m; Altezza: 2,2 m</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          <!-- Modal t80 footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- Modal  abrams  -->
+    <div class="modal" id="abrams">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal abrams  header -->
+          <div class="modal-header">
+            <h4 class="modal-title">M1A2 SEP V2</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal abrams body -->
+          <div class="modal-body">
+            <p>L'M1A2 SEP (System Enhancement Program) è una versione aggiornata del carro armato principale M1A2 standard. L'aggiornamento SEP include processori migliorati, display a colori e a schermo piatto ad alta risoluzione, maggiore capacità di memoria, Soldier Machine Interface (SMI) di facile utilizzo e un sistema operativo aperto che consentirà la crescita futura. I principali miglioramenti includono l'integrazione del mirino a infrarossi di seconda generazione (FLIR di seconda generazione), dell'Under Armour Auxiliary Power Unit (UAAPU) e di un sistema di gestione termica (TMS). Le modifiche al carro armato M1A2 Abrams contenute nella configurazione SEP hanno lo scopo di migliorare la letalità, la sopravvivenza, la mobilità, la sostenibilità e fornire una maggiore consapevolezza situazionale e miglioramenti di comando e controllo. Un contratto pluriennale per 307 carri armati M1A2 Abrams Systems Enhancement Program (SEP) è stato assegnato nel marzo 2001 con produzione fino al 2004. Nel novembre 2007, General Dynamics si è aggiudicata un contratto per l'aggiornamento di 240 carri armati M1A2 SEP versione uno alla versione due configurazione che ha mirini, display e un telefono di fanteria migliorati. Attualmente, l'esercito americano dispone di un totale di 588 M1A2 SEP.
+</p>
+            <br>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Armamento</th>
+                  <th scope="col">Corazza</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Un cannone liscio M256 da 120 mm, una mitragliatrice coassiale M240 da 7,62 mm, una mitragliatrice pesante M2 da 12,7 mm e una mitragliatrice M240 da 7,62 mm</td>
+                  <td>Corazza in acciaio incapsulato di terza generazione con uranio impoverito.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th scope="col">Paesi utilizzatori</th>
+                  <th scope="col">Peso</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Stati Uniti</td>
+                  <td>63.000 kg</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th scope="col">Paese progettista</th>
+                  <th scope="col">Velocità</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Stati Uniti</td>
+                  <td>68 km/h</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th scope="col">Accessori</th>
+                  <th scope="col">Autonomia</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Vista termica indipendente del comandante, vista infrarossa di seconda generazione, unità di alimentazione ausiliaria sotto corazzatura (UAAPU), sistema di gestione termica</td>
+                  <td>425 km</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th scope="col">Equipaggio</th>
+                  <th scope="col">Dimensioni</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>4</td>
+                  <td>Lunghezza: 9,77 m; Larghezza: 3,7 m; Altezza: 2,4 m</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          <!-- Modal abrams footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    
+
+
+    <!-- Modal  ariete  -->
+        <div class="modal" id="ariete">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal ariete  header -->
+              <div class="modal-header">
+                <h4 class="modal-title">C1 ARIETE</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <!-- Modal ariete body -->
+              <div class="modal-body">
+                <p>Il carro armato Ariete è stato sviluppato dal Consorzio Iveco Fiat - OTO Melara con sede a Roma. Si tratta di un consorzio formato da Iveco SpA, divisione veicoli blindati e dalla divisione Otobreda di Aliena Difesa. Iveco Fiat ha sviluppato lo scafo del veicolo e Otobreda il sistema d'arma e la torretta. L'Ariete ha iniziato la produzione per l'Esercito Italiano nel 1995 e sono stati ordinati 200 veicoli, con consegne che dovrebbero terminare nel 2002. L'Ariete può colpire bersagli giorno e notte, in movimento o in posizione fissa. L'armamento principale è un cannone modello 44 da 120 mm costruito dalla ditta OTO Breda. La canna è dotata di manica termica, sistema di estrazione fumi e sistema di rilevamento sull'estremità della canna. Il cannone è completamente stabilizzato, sia in elevazione che in direzione, grazie a servo idraulici. Può utilizzare un'intera gamma di munizioni che vanno dall'APFSDS (munizioni per pinne stabilizzate e sabot staccabili) e HEAT (anti-carro esplosivo). Il veicolo può trasportare 42 proiettili da 120 mm, 15 sono direttamente pronti per l'uso e altri 27 sono conservati nello scafo del veicolo. L'Ariete è armato anche con una mitragliatrice coassiale da 7,62 mm e un'altra mitragliatrice da 7,62 mm azionata dal comandante del veicolo, è montata sul portello destro della torretta. Il serbatoio trasporta 2.500 colpi da 7,62 mm. La rotazione della torretta è assicurata da un sistema elettroidraulico, con sistema manuale di emergenza. I lanciagranate fumogeni sono montati sulla parte anteriore sinistra e destra della torretta e puntati in avanti. Il serbatoio è dotato di sensori per il rilevamento del telemetro laser, sviluppati dalla ditta Marconi SpA. Questi sensori sono posizionati sulla parte anteriore della torretta, fornendo una protezione a 360°. Lo scafo e la torretta sono realizzati in acciaio saldato con protezione aggiuntiva nella parte anteriore. Il veicolo è inoltre dotato di un sistema di protezione NBC per l'equipaggio sviluppato dalla ditta Sekur SpA di Roma. Il veicolo è dotato di un sistema di rilevazione incendio prodotto dalla ditta Officile Galilée. L'equipaggiamento standard comprende un sistema di visione panoramica giorno/notte per il comandante del veicolo, nonché un sistema di telemetro laser, un computer di ripresa e una termocamera per il tiratore. Il sistema di controllo del fuoco memorizza informazioni sulla situazione meteorologica, sulla velocità del vento e sul bersaglio per fornire la massima informazione per la selezione delle munizioni e la precisione di tiro. Il portello del comandante del veicolo è dotato di episcopi stabilizzati con visione panoramica e monitor televisivo che mostra la visione termica dell'artigliere. Ha una vista a 360° con possibilità di elevazione da -10° a +60°. Il portello del conducente è dotato di 3 episcopi,uno dei quali ha un sistema di visione notturna. Il veicolo è equipaggiato con un motore diesel Fiat V-12 MTCA, che sviluppa 937 CV. Il sistema di trasmissione è automatico. Il sottocarro è composto da sette ruote stradali e 4 rulli di appoggio, i cingoli sono costituiti da doppi pattini. Il sistema di sospensione è a barre di torsione. L'Ariete può muoversi ad una velocità massima di 65 km/h e può risalire un pendio che abbia una dislivello massima del 65%. Può attraversare un corso d'acqua con profondità massima di 4 m con preparazione e massima di 1,25 m senza preparazione.
+    </p>
+                <br>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Armamento</th>
+                      <th scope="col">Schermatura</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Cannone da 120 mm e due mitragliatrici da 7,62 mm</td>
+                      <td>Protezione contro armi leggere e schegge</td>
+                    </tr>
+                  </tbody>
+                  <thead>
+                    <tr>
+                      <th scope="col">Paesi utente</th>
+                      <th scope="col">Peso</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Italia</td>
+                      <td>54.000 kg</td>
+                    </tr>
+                  </tbody>
+                  <thead>
+                    <tr>
+                      <th scope="col">Equipaggio</th>
+                      <th scope="col">Velocità</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>4 uomini</td>
+                      <td>55 km/h</td>
+                    </tr>
+                  </tbody>
+                  <thead>
+                    <tr>
+                      <th scope="col">Accessori</th>
+                      <th scope="col">Autonomia</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Sistema informatico antincendio, protezione antincendio, sensori di rilevamento incendi con telemetro laser e protezione NBC</td>
+                      <td>550 km</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+
+              <!-- Modal ariete footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+    
+  </div>
+</body>
+</html>
